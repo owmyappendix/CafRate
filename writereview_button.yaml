@@ -1,0 +1,22 @@
+
+Button_WriteReview:
+  style:
+    position: absolute
+    top: 20
+    left: 480
+    width: 200
+    height: 30
+    backgroundColor: black
+    borderRadius: 25
+  children: [Text_WriteReview]
+  on_touch:
+    backgroundColor: rgb(50, 50, 50)
+Text_WriteReview:
+  style:
+    color: gold
+    fontSize: 15
+    marginLeft: 17
+    marginTop: 5
+    fontFamily: product sans
+  pos: 15
+  len: 25

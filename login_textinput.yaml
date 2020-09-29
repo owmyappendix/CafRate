@@ -1,0 +1,16 @@
+
+TextInput_{type}:
+  style:
+    position: absolute
+    left: 200
+    top: {top}
+    width: 250
+    height: 30
+    fontSize: 20
+    borderWidth: 1
+    background: white
+    fontFamily: product sans
+  extra_props:
+    secureTextEntry: {secure}
+  pos: {pos}
+  len: 100

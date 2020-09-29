@@ -1,0 +1,10 @@
+
+Text_header:
+  style:
+    color: black
+    marginLeft: 225
+    marginTop: 5
+    fontSize: 50
+    fontFamily: product sans
+  pos: {pos}
+  len: {len}

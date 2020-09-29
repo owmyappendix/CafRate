@@ -1,0 +1,9 @@
+
+View_divider3:
+  style:
+    position: absolute
+    backgroundColor: gold
+    width: 700
+    height: 5
+    top: 60
+  children: [View_review0]

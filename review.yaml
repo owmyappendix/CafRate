@@ -1,0 +1,18 @@
+
+View_review{num}:
+  style:
+    position: absolute
+    top: 40
+    width: 700
+    backgroundColor: black
+  children: [Text_review{num}, View_review{num2}]
+
+Text_review{num}:
+  style:
+    color: gold
+    fontSize: 25
+    marginLeft: 15
+    marginTop: 10
+    fontFamily: product sans
+  pos: {pos}
+  len: 200

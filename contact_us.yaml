@@ -1,0 +1,37 @@
+
+View_divider:
+  style:
+    backgroundColor: black
+    position: Absolute
+    width: 500
+    height: 5
+    marginLeft: 100
+    marginTop: 250
+  children: [Text_erica, Text_dagmawe, Text_sean]
+Text_erica:
+  style:
+    color: gold
+    fontSize: 30
+    marginLeft: 100
+    marginTop: 50
+    fontFamily: product sans
+  pos: 200
+  len: 50
+Text_sean:
+  style:
+    color: gold
+    fontSize: 30
+    marginLeft: 100
+    marginTop: 50
+    fontFamily: product sans
+  pos: 250
+  len: 50
+Text_dagmawe:
+  style:
+    color: gold
+    fontSize: 30
+    marginLeft: 100
+    marginTop: 50
+    fontFamily: product sans
+  pos: 300
+  len: 50

@@ -1,0 +1,10 @@
+
+Picker_1:
+  style:
+    position: absolute
+    width: 200
+    marginLeft: 200
+    marginTop: 245
+    fontFamily: product sans
+  pos: [85, 100, 115, 130, 145, 160, 175, 190, 205]
+  indexPos: 220

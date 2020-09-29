@@ -1,0 +1,22 @@
+
+Button_settingsBack:
+  style:
+    position: absolute
+    top: 20
+    left: 20
+    width: 100
+    height: 30
+    backgroundColor: black
+    borderRadius: 25
+  children: [Text_home]
+  on_touch:
+    backgroundColor: rgb(50, 50, 50)
+Text_home:
+  style:
+    color: gold
+    fontSize: 15
+    marginLeft: 30
+    marginTop: 5
+    fontFamily: product sans
+  pos: {pos}
+  len: 10

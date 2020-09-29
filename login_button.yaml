@@ -1,0 +1,22 @@
+
+Button_{type}:
+    style:
+        position: absolute
+        top: {top}
+        left: 260
+        width: 130
+        height: 30
+        backgroundColor: gold
+        borderRadius: 25
+    children: [Text_{type}]
+    on_touch:
+        backgroundColor: rgb(255, 200, 0)
+Text_{type}:
+    style:
+        color: black
+        fontSize: 15
+        marginLeft: {mleft}
+        marginTop: 5
+        fontFamily: product sans
+    pos: {pos}
+    len: {len}

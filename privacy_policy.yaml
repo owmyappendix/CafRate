@@ -1,0 +1,37 @@
+
+View_divider:
+  style:
+    backgroundColor: black
+    position: Absolute
+    width: 500
+    height: 5
+    marginLeft: 100
+    marginTop: 250
+  children: [Text_1, Text_2, Text_3]
+Text_1:
+  style:
+    color: gold
+    fontSize: 30
+    marginLeft: 50
+    marginTop: 30
+    fontFamily: product sans
+  pos: 100
+  len: 200
+Text_2:
+  style:
+    color: gold
+    fontSize: 30
+    marginLeft: 50
+    marginTop: 30
+    fontFamily: product sans
+  pos: 300
+  len: 200
+Text_3:
+  style:
+    color: gold
+    fontSize: 30
+    marginLeft: 50
+    marginTop: 30
+    fontFamily: product sans
+  pos: 500
+  len: 100

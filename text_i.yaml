@@ -1,0 +1,9 @@
+
+Text_i{num}:
+  style:
+    color: gold
+    fontSize: 25
+    marginLeft: 50
+    marginTop: 20
+  pos: {pos}
+  len: 50

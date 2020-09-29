@@ -1,0 +1,10 @@
+
+Button_star_{num}:
+  style:
+    position: absolute
+    left: {left}
+    top: 150
+    width: 70
+    height: 70
+  on_touch:
+    backgroundColor: rgb(192, 192, 192)

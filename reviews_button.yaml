@@ -1,0 +1,22 @@
+
+Button_ViewReviews:
+  style:
+    position: absolute
+    top: 20
+    left: 505
+    width: 175
+    height: 30
+    backgroundColor: black
+    borderRadius: 25
+  children: [Text_VR]
+  on_touch:
+    backgroundColor: rgb(50, 50, 50)
+Text_VR:
+  style:
+    color: gold
+    fontSize: 15
+    marginLeft: 25
+    marginTop: 5
+    fontFamily: product sans
+  pos: 2000
+  len: 20

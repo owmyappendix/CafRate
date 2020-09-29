@@ -1,0 +1,57 @@
+
+Text_line:
+  style:
+    position: absolute
+    color: gold
+    fontSize: 20
+    marginLeft: 130
+    marginTop: 250
+    fontFamily: product sans
+  pos: 20
+  len: 10
+Text_comments:
+  style:
+    position: absolute
+    color: gold
+    fontSize: 20
+    marginLeft: 63
+    marginTop: 310
+    fontFamily: product sans
+  pos: 40
+  len: 10
+Button_PostReview:
+  style:
+    position: absolute
+    top: 20
+    left: 505
+    width: 175
+    height: 30
+    backgroundColor: black
+    borderRadius: 25
+  children: [Text_PR]
+  on_touch:
+    backgroundColor: rgb(50, 50, 50)
+Text_PR:
+  style:
+    color: gold
+    fontSize: 15
+    marginLeft: 25
+    marginTop: 5
+    fontFamily: product sans
+  pos: 60
+  len: 20
+TextInput_Comments:
+  style:
+    position: absolute
+    left: 200
+    top: 300
+    width: 450
+    height: 400
+    fontSize: 20
+    borderWidth: 1
+    backgroundColor: white
+    fontFamily: product sans
+  extra_props:
+    multiline: true
+  pos: 340
+  len: 500

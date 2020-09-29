@@ -1,0 +1,144 @@
+
+Button_Logout:
+  style:
+    position: absolute
+    top: 20
+    left: 580
+    width: 100
+    height: 30
+    backgroundColor: black
+    borderRadius: 25
+  children: [Text_Logout]
+  on_touch:
+    backgroundColor: rgb(50, 50, 50)
+Text_Logout:
+  style:
+    color: gold
+    fontSize: 15
+    marginLeft: 27
+    marginTop: 5
+    fontFamily: product sans
+  pos: 500
+  len: 10
+View_Notifications:
+  style:
+    position: absolute
+    top: 150
+    left: 0
+    width: 700
+    height: 60
+    backgroundColor: gold
+  children: [Text_Notifications, Button_On, Button_Off, Text_Off]
+Text_Notifications:
+  style:
+    color: black
+    fontSize: 35
+    marginLeft: 125
+    marginTop: 10
+    fontFamily: product sans
+  pos: 550
+  len: 20
+Button_On:
+  style:
+    position: absolute
+    top: 10
+    left: 450
+    width: 80
+    height: 40
+    backgroundColor: black
+    borderRadius: 60
+    children: [Text_On]
+  on_touch:
+    backgroundColor: rgb(0, 0, 200)
+Button_Off:
+  style:
+    position: absolute
+    top: 10
+    left: 550
+    width: 80
+    height: 40
+    backgroundColor: gold
+    borderRadius: 60
+    children: [Text_Off]
+  on_touch:
+    backgroundColor: rgb(0, 0, 200)
+Text_On:
+  style:
+    position: absolute
+    color: gold
+    fontSize: 20
+    left: 477
+    top: 167
+    fontFamily: product sans
+  pos: 570
+  len: 10
+Text_Off:
+  style:
+    position: absolute
+    color: black
+    fontSize: 20
+    marginLeft: 575
+    marginTop: 19
+    fontFamily: product sans
+  pos: 580
+  len: 10
+Button_privacyPolicy:
+  style:
+    position: absolute
+    top: 230
+    left: 0
+    width: 700
+    height: 60
+    backgroundColor: gold
+  children: [Text_privacyPolicy]
+  on_touch:
+    backgroundColor: rgb(255, 200, 0)
+Text_privacyPolicy:
+  style:
+    color: black
+    fontSize: 35
+    marginLeft: 230
+    marginTop: 10
+    fontFamily: product sans
+  pos: 590
+  len: 20
+Button_Edit:
+  style:
+    position: absolute
+    top: 310
+    left: 0
+    width: 700
+    height: 60
+    backgroundColor: gold
+  children: [Text_Edit]
+  on_touch:
+    backgroundColor: rgb(255, 200, 0)
+Text_Edit:
+  style:
+    color: black
+    fontSize: 35
+    marginLeft: 220
+    marginTop: 10
+    fontFamily: product sans
+  pos: 610
+  len: 10
+Button_ContactUs:
+  style:
+    position: absolute
+    top: 390
+    left: 0
+    width: 700
+    height: 60
+    backgroundColor: gold
+  children: [Text_ContactUs]
+  on_touch:
+    backgroundColor: rgb(255, 200, 0)
+Text_ContactUs:
+  style:
+    color: black
+    fontSize: 35
+    marginLeft: 260
+    marginTop: 10
+    fontFamily: product sans
+  pos: 630
+  len: 10

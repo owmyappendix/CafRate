@@ -1,0 +1,21 @@
+        Button_visitor:
+            style:
+                position: absolute
+                top: 600
+                left: 260
+                width: 130
+                height: 30
+                backgroundColor: gold
+                borderRadius: 25
+            children: [Text_visitor]
+            on_touch:
+                backgroundColor: rgb(255, 200, 0)
+        Text_visitor:
+            style:
+                color: black
+                fontSize: 15
+                marginLeft: 17
+                marginTop: 5
+                fontFamily: product sans
+            pos: 110
+            len: 20

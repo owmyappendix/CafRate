@@ -1,0 +1,10 @@
+
+View_divider:
+  style:
+    backgroundColor: gold
+    position: Absolute
+    width: 500
+    height: 5
+    marginLeft: 100
+    marginTop: 300
+  children: [Text_i1, Text_id1, Text_i2, Text_id2, Text_i3, Text_id3, Text_i4, Text_id4, Text_i5, Text_id5, Text_i6, Text_id6, View_divider2]

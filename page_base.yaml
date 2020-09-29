@@ -1,0 +1,19 @@
+
+ScrollView_2:
+  style:
+    backgroundColor: black
+    width: 700
+    borderRadius: 15
+    marginLeft: 0
+    marginTop: 0
+  children: [View_3]
+View_3:
+  style:
+    backgroundColor: gold
+    width: 700
+    height: 70
+    marginLeft: 0
+    marginTop: 0
+  children: [Text_header, Text_title, Text_line, Text_comments, Text_slogan]
+  pos: 400
+  len: 50

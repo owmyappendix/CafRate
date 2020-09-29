@@ -1,0 +1,10 @@
+
+Text_title:
+  style:
+    color: {color}
+    fontSize: {fsize}
+    marginLeft: {mleft}
+    marginTop: {mtop}
+    fontFamily: product sans
+  pos: {pos}
+  len: {len}

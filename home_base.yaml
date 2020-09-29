@@ -1,0 +1,24 @@
+ScrollView_2:
+            style:
+                backgroundColor: black
+                width: 700
+                borderRadius: 15
+            children: [Text_title, Text_slogan]
+        Text_title:
+            style:
+                color: gold
+                fontSize: 100
+                marginLeft: 130
+                marginTop: 170
+                fontFamily: product sans
+            pos: 1
+            len: 50)
+        Text_slogan:
+            style:
+                color: gold
+                fontSize: 30
+                marginLeft: 240
+                marginTop: 20
+                fontFamily: product sans
+            pos: 50
+            len: 50

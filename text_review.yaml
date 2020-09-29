@@ -1,0 +1,9 @@
+
+Text_review{num}:
+  style:
+    color: gold
+    fontSize: 20
+    marginLeft: 50
+    marginTop: 20
+  pos: {pos}
+  len: 200

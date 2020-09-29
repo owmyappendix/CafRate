@@ -10,6 +10,8 @@ CafRate is a program for viewing the St. Olaf dialy menu, reading reviews, and l
 
 # Using CafRate
 
+* Detailed usage instructions are available in the provided manual, cafrate_manual.pdf
+
 * CafRate is only usable on St. Olaf college networks and currently only on the link machines in RNS202 and 203. On these machines, download the code and run the following. g++ -Wall -g -std=c++11 driver.cpp str_util.o sd_fun.o then run ./serve.py
 
 # CafRate code
